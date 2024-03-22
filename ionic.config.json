@@ -3,5 +3,11 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "react-vite"
+  "type": "react-vite",
+  "proxies": [
+    {
+      "path": "/maps-api",
+      "proxyUrl": "https://maps.googleapis.com"
+    }
+  ]
 }

@@ -1,0 +1,30 @@
+.nearby-places {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .place-item {
+    --background: #fff;
+    --border-radius: 10px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .button-container ion-button {
+    --background: #ff6f61;
+    --border-radius: 10px;
+    --box-shadow: none;
+  }
+  
+  .button-container ion-button:hover {
+    --background: #ff8c78;
+  }
+  
