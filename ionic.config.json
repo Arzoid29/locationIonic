@@ -1,0 +1,7 @@
+{
+  "name": "ubicacionApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
